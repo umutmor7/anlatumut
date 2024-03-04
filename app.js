@@ -70,7 +70,7 @@ searchForm.addEventListener("submit", async (e) => {
 // Event listener for the theme toggler
 themeToggler.addEventListener("click", () => {
   body.classList.toggle("dark-theme");
-  if (body.classList.contains("dark-theme")) {
+  if (body.classList.contains("light-theme")) {
     themeToggler.textContent = "Dark";
     themeToggler.style.background = "#fff";
     themeToggler.style.color = "#333";
