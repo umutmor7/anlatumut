@@ -97,7 +97,8 @@ button[type="submit"]:hover {
   align-items: center;
 }
 
-#theme-toggler {
+#theme-toggler,
+#language-toggler { /* Style for language toggler button */
   border: none;
   background: transparent;
   cursor: pointer;
