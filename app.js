@@ -25,9 +25,9 @@ function displayResults(results) {
   searchResults.innerHTML = "";
 
   results.forEach((result) => {
-    const url = `https://tr.wikipedia.org/?curid=${results.pageid}`;
+    const url = `https://tr.wikipedia.org/?curid=${result.pageid}`;
     const titleLink = `<a href="${url}" target="_blank" rel="noopener">${result.title} </a>`;
-    const urlLink = `<a href="${url} class="result-link" target="_blank" rel="noopener">${url}</a>`;
+    const urlLink = `<a href="${url}" class="result-link" target="_blank" rel="noopener">${url}</a>`;
 
     const resultItme = document.createElement("div");
     resultItme.className = "result-item";
