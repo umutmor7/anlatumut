@@ -89,7 +89,7 @@ themeToggler.addEventListener("click", () => {
 languageToggler.addEventListener("click", () => {
   body.classList.toggle("english");
   if (body.classList.contains("english")) {
-    languageToggler.textContent = "Switch to Turkish";
+    languageToggler.textContent = "Türkçe'ye geç";
   } else {
     languageToggler.textContent = "Switch to English";
   }
